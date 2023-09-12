@@ -54,21 +54,38 @@
 </div>
 
 <style>
-	.container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		flex: 1;
-	}
-
-	.container form {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.container div {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-</style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+    }
+  
+    div {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+  
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  
+    button:hover {
+      background-color: #0056b3;
+    }
+  
+    label,
+    input[type="password"],
+    input[type="email"] {
+      margin-bottom: 10px;
+    }
+  </style>
+  
