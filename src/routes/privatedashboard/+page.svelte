@@ -1,4 +1,5 @@
 <script>
+	import 'flowbite/dist/flowbite.css';
 	import AuthReset from '../../components/AuthReset.svelte';
 	import { auth } from '../../lib/firebase/firebase.client';
 	import { authHandlers, authStore } from '../../stores/authStore';

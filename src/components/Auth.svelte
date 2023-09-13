@@ -1,4 +1,5 @@
 <script>
+	import 'flowbite/dist/flowbite.css';
 	import { authHandlers, authStore } from '../stores/authStore';
 
 	let register = false;
@@ -64,7 +65,7 @@
 
 <style>
 
-h1 {
+ h1 {
       font-size: 24px; /* You can adjust the font size as needed */
       font-weight: bold;
     }
@@ -108,14 +109,6 @@ h1 {
       background-color: #0056b3;
     }
   
-    .toggle-link {
-      cursor: pointer;
-      color: #007BFF;
-      text-decoration: underline;
-    }
-  
-    .toggle-link:hover {
-      color: #0056b3;
-    }
+
   </style>
   

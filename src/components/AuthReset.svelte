@@ -1,4 +1,5 @@
 <script>
+	import 'flowbite/dist/flowbite.css';
 	import { authHandlers, authStore } from '../stores/authStore';
 
 	let action = '';
